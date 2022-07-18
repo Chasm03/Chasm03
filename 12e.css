@@ -1,0 +1,42 @@
+p, button {
+  font-family: Arial;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgb(72, 145, 255);
+  color: white;
+  font-weight: bold;
+}
+
+.flexbox {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-color: grey;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
